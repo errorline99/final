@@ -3,7 +3,13 @@
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+       <body>
+        <div>
+          <Link href="/">BOOO1</Link>
+          <Link href="/new">BOOOO2</Link>
+        </div>
+          <main>{children}</main>
+        </body>
     </html>
   );
 }
